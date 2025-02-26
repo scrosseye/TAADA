@@ -23,4 +23,13 @@ From these counts, we used a Python script to calculate conditional probability 
 
 Additionally, the script calculated the conditional probability counts for each word to derive their conditional probability. We first converted the phonemes in the Berndt dictionary into phonemes used in the CMU (e.g., ay to EY1, and ih to IH0, where the numerals demark primary/secondary or absence of stress). After finding some discrepancies between the CMU dictionary and the Berndt data (e.g., The phoneme IH2 is only represented as the grapheme cluster Y-E in CMU, while it can denote the grapheme cluster EA in Berndt’s data), we elected to remove the stress markers in the CMU dictionary to account for discrepancies. The script then mapped graphemes to phonemes using regular expressions, deriving conditional probability counts for each word. For example, the word tap can be broken down into three phonemes t, ae, and p, where the conditional probability of the grapheme T mapping to the phoneme t is .97 (i.e., P(t | T) = .97), and P(ae | A) .54, and P(p | P) = 1.00. In this example, the average conditional probability (the sum of the conditional probabilities divided by the number of graphemes) for the word tap is 0.837. This measure serves as the average predictability of the grapheme and phoneme pairs in a word.
 
+There a few main scripts here
+
+1. Script to calculate the majority of TAADA variable except Conditional Probability. This produces a dataframe for words in the English language and their decoding values
+2. The script to calculate Conditional probability is at ....
+3. Script to calculate mean scores for all TAADA variables for a corpus of texts. This includes
+   a. The dataframe with all the decoding variable scores by word (decoding_1_dataframe.csv). This is the basis for TAADA.
+   b. Python script to calculate mean decoding scores for words in the texts (calculate_TAADA_measures_from_texts_github.ipynb)
+
+
 TAADA is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.: https://creativecommons.org/licenses/by-nc-sa/4.0/
