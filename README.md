@@ -47,13 +47,13 @@ The data and scripts included in this repository are:
 
    b. The CMU vowel phonemes (here as cmu_phones_vowels.csv)
 
-   c. The Grapheme‑Phoneme Complexity dictionary reported in Berndt et al. (1987). There are eight dictionaries, four for consonants and four for values with enumerations from 1 to four       characters (here as cons_cond_prob_berndt_no_except_one_char.csv which is for one character consonant values)
+   c. The Grapheme‑Phoneme Complexity dictionary reported in Berndt et al. (1987). There are eight dictionaries, four for consonants and four for values with enumerations from 1 to four characters (here as cons_cond_prob_berndt_no_except_one_char.csv which is for one character consonant values)
 
-3. The script to calculate Conditional probability is at another github account. It is calculate_cond_prob_final_for_github.ipynb
+3. The script to calculate Conditional probability for individual words. It is the zip file cp_code.zip and was written by Joon Suh Choi
 
 4. Script to calculate mean scores for all TAADA variables for a corpus of texts. This requires the following
 
-   a. The dataframe with all the decoding variable scores by word (decoding_1_dataframe.csv). This is the basis for TAADA all TAADA counts and included counts calculated in                    calculate_decoding_variables_minus_cond_prob_final_for_github.ipynb and calculate_cond_prob_final_for_github.ipynb
+   a. The dataframe with all the decoding variable scores by word (decoding_1_dataframe.csv). This is the basis for TAADA all TAADA counts and included counts calculated in                    calculate_decoding_variables_minus_cond_prob_final_for_github.ipynb and calculate_cond_prob_final_for_github.ipynb. It also includes variables from TAAMI, the English Lexicon Project, and COCA.
 
    b. Python script to calculate mean decoding scores for words in the texts (calculate_TAADA_measures_from_texts_github.ipynb)
 
