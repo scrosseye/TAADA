@@ -2,6 +2,10 @@
 
 This repository includes the source code for a decoding tool that builds on the work of Saha et al., (2021): the Tool for the Automatic Analysis of Decoding Ambiguity (TAADA). TAADA is a freely available natural language processing (NLP) tool specifically designed to annotate and count lexical and sub-lexical features related to decoding in English. The features include metrics for grapheme, phoneme, and syllable counts, word frequency, contextual diversity, neighborhood effects, rhymes, and conditional probability. These are described below
 
+## Overview of TAADA pipeline
+
+Please see https://miro.com/app/board/uXjVJfEI7Yo=/ for an overview of the TAADA pipeline. It is overly complicated, and we hope this flowchart helps to explain everything below.
+
 ## Basic decoding counts. 
 
 TAADA includes a number of basic decoding counts derived from the CMU pronouncing dictionary. The CMUdict provides a mapping between a word and that word’s phonemes for 133,779 words in the English language. However, in practice, many of these words are extremely rare. 
