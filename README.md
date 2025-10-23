@@ -61,6 +61,8 @@ The data and scripts included in this repository are:
 
    b. Python script to calculate mean decoding scores for words in the texts (calculate_TAADA_measures_from_texts_github.ipynb)
 
-5. The complete script with the graphic user interface code can be found at https://github.com/jchoi92k/TAADA_notebook
+   c. A practice dataframe (CLEAR_corpus_prac_simple.csv) that contains four reading excerpts on which to run the calculate_TAADA_measures_from_texts_github.ipynb code.
+
+6. The complete script with the graphic user interface code can be found at https://github.com/jchoi92k/TAADA_notebook
 
 TAADA is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.: https://creativecommons.org/licenses/by-nc-sa/4.0/
