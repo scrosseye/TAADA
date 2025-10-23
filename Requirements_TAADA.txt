@@ -1,0 +1,1 @@
+﻿Requirements for TAADAThe following packages are required to run the TAADA notebooks- os- pandas- re- spacy- numpy- time- random- collections- itertools- tqdm- json- pickle- icecream
