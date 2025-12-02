@@ -53,7 +53,7 @@ The data and scripts included in this repository are:
 
    c. The Grapheme‑Phoneme Complexity dictionary reported in Berndt et al. (1987). There are eight dictionaries, four for consonants and four for values with enumerations from 1 to four characters (here as cons_cond_prob_berndt_no_except_one_char.csv which is for one character consonant values)
 
-3. The script to calculate Conditional probability for individual words. It is a zip file labeled cp_code.zip and located [here](https://drive.google.com/file/d/1whKTg8RSc2cnOH_rmuGE1BipK_VHEHlt/view?usp=sharing). It is too big for github because a pickled dictionary. The code was written by Joon Suh Choi.
+3. The script and data to calculate Conditional probability for individual words is in the cp_code.zip file labeled cp_code.zip. The code was written by Joon Suh Choi.
 
 4. Script to calculate mean scores for all TAADA variables for a corpus of texts. This requires the following
 
